@@ -1,0 +1,11 @@
+POST http://localhost:3000/books 
+Content-Type: application/json
+
+{
+  "title": "The Great Gatsby",
+  "desc": "F. Scott Fitzgerald",
+  "cover": "http://www.fillmurray.com/200/300"
+}
+###
+
+GET http://localhost:3000/books
